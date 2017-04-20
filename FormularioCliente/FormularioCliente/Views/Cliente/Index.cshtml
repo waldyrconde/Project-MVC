@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Cadastro Cliente</h2>
+ 
+<form action="/Cliente/Adicionar" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <label>Nome</label>
+            <input type="text" id="txtnome" name="txtnome" class="form-control"  />
+        </div>        
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <label>Email</label>
+            <input type="text" id="txtemail" name="txtemail" class="form-control" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <button type="submit" class="btn-success">Adicionar</button>
+        </div>
+    </div>    
+</form>
