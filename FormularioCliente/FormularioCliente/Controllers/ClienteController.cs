@@ -13,5 +13,9 @@ namespace FormularioCliente.Controllers
         {
             return View();
         }
+        public ActionResult Adicionar()
+        {
+            return View();
+        }
     }
 }
