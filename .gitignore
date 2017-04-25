@@ -4,3 +4,4 @@
 *.ptx
 *.cubin
 *.fatbin
+git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch packages" HEAD
